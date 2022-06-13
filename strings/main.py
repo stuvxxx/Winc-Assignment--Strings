@@ -15,7 +15,6 @@ first_name = player[:player.find(" ")]
 last_name = player[player.index(first_name) + 1 + len(first_name):]
 last_name_len = len(last_name)
 name_short = player[0] + ". " + last_name
-print(name_short)
 chant_fail = len(first_name) * (first_name + "! ")
 chant = chant_fail.rstrip()
 good_chant = chant[-1] != " "
